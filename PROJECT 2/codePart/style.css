@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "averta cy w10";
+}
+#main {
+  width: 100%;
+}
+#home {
+  width: 100%;
+  height: 100vh;
+}
+#nav {
+  width: 100%;
+  padding: 1.5vw 3vw;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  justify-content: space-between;
+}
+#nav img {
+  width: 100px;
+}
+#navR a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-size: 1.2vw;
+  letter-spacing: -0.09vw;
+}
+#navR {
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+  gap: 10px;
+}
+#navR i {
+  font-size: 19px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+#homemain {
+  padding: 13vw 15vw;
+
+  width: 100%;
+}
+#homemain > h1 {
+  font-size: 1.4vw;
+  font-weight: 500;
+  letter-spacing: -0.1vw;
+}
+
+.headings {
+  display: flex;
+  gap: 1.9vw;
+}
+#home .headings h1 {
+  font-size: 7vw;
+  line-height: 0.9;
+  -webkit-text-stroke: 1px black;
+  font-weight: 900;
+  letter-spacing: -0.4vw;
+  color: transparent;
+}
+#home .headings h1:hover{
+  color: black;
+}
+#homelast {
+  padding: 3vw 16vw;
+}
+#homelast p {
+  width: 60%;
+  font-size: 1.5vw;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  line-height: 1.5;
+}
+#homelast p ::selection {
+  color: #fff;
+  background-color: black;
+}
+#features {
+  width: 100%;
+  padding: 15vw 16vw;
+}
+.fhead h1 {
+  line-height: 3vw;
+  font-weight: 400;
+  font-size: 2.7vw;
+  text-transform: capitalize;
+}
+.fhead :nth-child(2) {
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+.fhead h1::selection {
+  color: #fff;
+  background-color: black;
+}
+#fimages {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-top: 5vw;
+  justify-content: space-between;
+}
+.Fleft {
+  height: inherit;
+  width: 45%;
+ overflow: hidden;
+}
+.Fright {
+  height: inherit;
+  display: flex;
+
+  justify-content: flex-end;
+  width: 45%;
+  margin-top: 10px;
+}
+.FRimg {
+  width: 90%;
+  height: 90%;
+  background-color: red;
+}
+.FRimg img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.FleftElem {
+
+  height: inherit;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  padding-top: 2vw;
+}
+.FleftElem h2 {
+  font-size: 1vw;
+  font-weight: 500;
+}
+.FleftElem h1 {
+  width: 90%;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 1.4;
+  margin: 1vw 0;
+}
+.FleftElem h4 {
+  opacity: 0.6;
+  font-weight: 900;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn button {
+  padding: 1.2vw 1.7vw;
+  background-color: #fff;
+  border: 2px solid #ececec;
+  border-radius: 100px;
+  font-size: 0.9vw;
+  font-weight: 600;
+  letter-spacing: -0.07vw;
+  text-transform: capitalize;
+}
+#development {
+  width: 100%;
+  padding: 2vw 16vw;
+}
+#development h1 {
+  width: 60%;
+  font-size: 3.5vw;
+  font-weight: 400;
+  line-height: 1;
+  margin-top: -4vw;
+}
+#development p {
+  margin-top: 3vw;
+  width: 55%;
+  font-weight: 400;
+  font-size: 1.4vw;
+  letter-spacing: -0.06vw;
+}
+.slides {
+  padding: 2vw 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.slide {
+  width: 30%;
+}
+.slide .Simage {
+  width: 100%;
+  height: 270px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+.slide .Simage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 20% 0;
+}
+
+.slide .tag {
+  width: fit-content;
+  border-radius: 100px;
+  padding: 10px 22px;
+  background-color: #f7f7f7;
+  margin: 20px 0;
+}
+
+.slide h3 {
+  font-size: 1.4vw;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
