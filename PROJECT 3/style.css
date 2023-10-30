@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "averta cy w10";
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  #main{
+    width: 100%;
+
+  }
+  #nav{
+    width: 100%;
+    padding: 1.5vw 6vw;
+    display: flex;
+    background-color: #e1eef9;
+    align-items: center;
+    justify-content: space-between;
+   border-bottom: 2px solid #bdddf7 ;
+  }
+
+  
+#nav > img{
+    width: 150px;
+    height: 55px;
+}
+#nav #navMain {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    
+}
+  #navMain a{
+    text-decoration: none;
+   color: black;
+    font-size: 1.4vw;
+    font-weight: 900;
+    opacity: .8;
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: -1.5px;
+  }
+
+.navItems a.active{
+  color:#4300a7 ;
+}
+  #navMain a:hover{
+    color:  #5a5a5a;
+  }
+
+  #Nav-searchBar .search-bar{
+    outline: none;
+    border: 2px solid  #919396;
+    padding: 10px 15px;
+    border-radius: 10px;
+ font-weight: 800;
+ color: #414141;
+  }
+  #Nav-searchBar .search-bar::placeholder{
+
+    position: absolute;
+    left: 30%;
+    color: #828282;
+    font-weight: 900;
+    font-size: .9vw;
+
+  }
+  #Nav-searchBar button{
+    padding: 10px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+   border: none;
+   color: #ede1e1;
+   letter-spacing: .9px;
+   outline: none;
+   border-radius: 10px;
+   font-weight: 700;
+   opacity: .8;
+
+    background-color: rgb(98, 98, 248);
+  }
+
+#container{
+  width: 100%;
+
+  padding:2vw 6vw ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#container #card{
+  width:31%;
+  min-height:400px;
+box-shadow: 0px 0px 4px #d4ecff;
+border-radius: 4px;
+cursor:pointer;
+margin-top: 2vw;
+overflow: hidden;
+/* border: 1px solid black; */
+ transition: all 0.3 ease;
+}
+#container #card:hover{
+  background-color: #f9fdff;
+  box-shadow: 1px 1px 8px #d4ecff;
+  transform: translateY(-2px);
+}
+#card-head{
+  width: 100%;
+  height: 200px;
+
+
+}
+#card-head img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+#card-content{
+padding: 12px;
+}
+#card-content h3{
+  font-size: 1.2vw;
+  line-height: 1;
+  margin:1vw 0;
+}
+#card-content p{
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin-top: 9px;
+}

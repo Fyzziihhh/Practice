@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News WebPage by 5c </title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav">
+
+    
+            <img onclick="reload()" src="Asianet_News_logo.png" alt="">
+     
+    
+            <div id="navMain">
+                <a href="#" class="navItems HoverLinks" id="sports" onclick="onNavQuerys('sports')">sports</a>
+                <a href="#" class="navItems HoverLinks"  id="finance" onclick="onNavQuerys('finance');">Finance</a>
+                <a href="#" class="navItems HoverLinks"  id="politics" onclick="onNavQuerys('politics');">politics</a>
+                <a href="#" class="navItems HoverLinks"  id="technology" onclick="onNavQuerys('technology');">technology</a>
+            </div>
+            <div id="Nav-searchBar">
+                <input type="text" id="search-bar" class="search-bar" placeholder="e.g science">
+                <button id="search-btn" class="search-btn">Search</button>
+            </div>
+        </div>
+        <div id="container">
+       
+          
+        </div>
+        <template id="template-news-card">
+            <div id="card">
+                <div id="card-head">
+                    <img id="news-img" src="" alt="">
+                </div>
+                <div id="card-content">
+                    <h3 id="news-title">card title</h3>
+                    <h5 id="news-source">5/2/2023,9:34:00 AM</h5>
+                  <p id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse perferendis et quidem, quia minima modi non dolores in placeat temporibus!</p>
+                </div>
+            </div>
+        </template>
+    </div>
+  
+
+</body>
+
+</html>
